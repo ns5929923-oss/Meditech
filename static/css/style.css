@@ -1,0 +1,29 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    padding: 100px 0;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+/* Cards */
+.card {
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Buttons */
+.btn-success {
+    background-color: #198754;
+    border: none;
+}
+
+.btn-dark {
+    background-color: #2c3e50;
+}

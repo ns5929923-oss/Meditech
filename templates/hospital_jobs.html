@@ -1,0 +1,16 @@
+<html>
+   
+         <div class="container mt-5">
+    <h3>My Job Posts</h3>
+
+    {% for job in jobs %}
+    <div class="card p-3 mt-3">
+        <h5>{{ job.title }}</h5>
+        <p>{{ job.location }}</p>
+        <p><strong>{{ job.salary }}</strong></p>
+    </div>
+    {% endfor %}
+</div>
+
+
+</html>
